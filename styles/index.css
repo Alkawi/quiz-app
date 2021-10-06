@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 60px auto 60px;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-icon {
+  height: 50px;
+}
