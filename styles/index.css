@@ -61,3 +61,9 @@ main {
 .nav-icon {
   height: 50px;
 }
+
+.profile-header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
