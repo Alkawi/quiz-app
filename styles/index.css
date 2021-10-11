@@ -45,7 +45,7 @@ main {
   position: relative;
 }
 
-.card__bookmark{
+.card__bookmark {
   position: absolute;
   top: -8px;
   right: 10px;
@@ -74,11 +74,39 @@ main {
 }
 
 .profile-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
   gap: 20px;
   justify-content: space-around;
 }
 
 .profile-header__image {
   border-radius: 50%;
+  height: 200px;
+}
+
+.profile-header__name {
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.profile-tags__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.profile-tags__list-items {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.profile-button {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
 }
