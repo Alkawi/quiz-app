@@ -9,7 +9,34 @@
   </head>
   <body>
     <h1>Profile</h1>
-    <main></main>
+    <main>
+      <header class="profile-header">
+        <img
+          class="profile-header__image"
+          src="https://source.unsplash.com/random/300x300"
+          alt="Profile picture"
+        />
+        <span class="profile-header__name">Axel Tischer</span>
+      </header>
+      <p class="profile-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nihil
+        inventore! Molestiae ullam dolorem earum sequi adipisci illo, blanditiis
+        qui unde laboriosam repudiandae nisi tempora officia eos recusandae
+        atque est.
+      </p>
+      <section class="profile-tags">
+        <h2 class="profile-tags__heading">Skills</h2>
+        <ul class="profile-tags__list">
+          <li class="profile-tags__list-items">html</li>
+          <li class="profile-tags__list-items">css</li>
+          <li class="profile-tags__list-items">javascript</li>
+          <li class="profile-tags__list-items">git</li>
+        </ul>
+      </section>
+      <footer class="profile__footer">
+        <a class="profile-button" href="#">logout</a>
+      </footer>
+    </main>
     <nav class="navigation">
       <a href="index.html"
         ><img class="nav-icon" src="images/home.png" alt=""
@@ -21,7 +48,7 @@
         ><img class="nav-icon" src="images/pen.png" alt=""
       /></a>
       <a href="profile.html"
-        ><img class="nav-icon" src="images/user.png" alt=""
+        ><img class="nav-icon nav-icon--active" src="images/user.png" alt=""
       /></a>
     </nav>
   </body>
