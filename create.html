@@ -9,7 +9,33 @@
   </head>
   <body>
     <h1>Create</h1>
-    <main></main>
+    <main class="create">
+      <form class="create__form" action="">
+        <label class="create__label" for="question">Add question</label>
+        <textarea
+          class="create__input"
+          name="question"
+          id="question"
+          cols="30"
+          rows="5"
+          required
+        ></textarea>
+        <label class="create__label" for="answer">Add answer</label>
+        <textarea
+          class="create__input"
+          name="answer"
+          id="answer"
+          cols="30"
+          rows="5"
+          required
+        ></textarea>
+        <label class="create__label" for="tags"
+          >Add tags divided by commas</label
+        >
+        <input class="create__input" name="tags" id="tags" type="text" />
+        <input class="create__button" type="submit" value="submit" />
+      </form>
+    </main>
     <nav class="navigation">
       <a href="index.html"
         ><img class="nav-icon" src="images/home.png" alt=""
@@ -18,7 +44,7 @@
         ><img class="nav-icon" src="images/bookmark.png" alt=""
       /></a>
       <a href="create.html"
-        ><img class="nav-icon" src="images/pen.png" alt=""
+        ><img class="nav-icon nav-icon--active" src="images/pen.png" alt=""
       /></a>
       <a href="profile.html"
         ><img class="nav-icon" src="images/user.png" alt=""
