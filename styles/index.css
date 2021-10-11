@@ -10,6 +10,7 @@ body {
   display: grid;
   grid-template-rows: 60px auto 60px;
   height: 100vh;
+  margin: 0;
 }
 
 h1 {
@@ -27,6 +28,7 @@ main {
   height: 100%;
   display: grid;
   gap: 20px;
+  padding: 20px;
 }
 
 .card {
@@ -40,6 +42,15 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  position: relative;
+}
+
+.card__bookmark{
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  height: 40px;
+  margin: 0;
 }
 
 .card__text {
@@ -66,4 +77,8 @@ main {
   display: flex;
   gap: 20px;
   justify-content: space-around;
+}
+
+.profile-header__image {
+  border-radius: 50%;
 }
