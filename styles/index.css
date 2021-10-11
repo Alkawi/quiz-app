@@ -104,9 +104,14 @@ main {
   padding: 10px;
 }
 
+.profile__footer {
+  display: flex;
+  justify-content: center;
+}
+
 .profile-button {
   padding: 10px 20px;
-  background-color: gray;
+  background-color: blue;
   color: white;
   text-decoration: none;
 }
@@ -141,6 +146,6 @@ main {
   color: white;
 }
 
-.nav-icon--active{
+.nav-icon--active {
   background-color: gray;
 }
