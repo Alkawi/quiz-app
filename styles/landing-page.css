@@ -1,0 +1,9 @@
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  overflow-y: auto;
+  height: 100%;
+  gap: 20px;
+  padding: 20px;
+}

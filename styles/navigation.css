@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.nav-icon {
+  height: 50px;
+}
+
+.nav-icon--active {
+  background-color: gray;
+}

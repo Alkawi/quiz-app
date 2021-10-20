@@ -9,60 +9,180 @@
     <script defer src="js/index.js"></script>
   </head>
   <body>
-    <h1>Quiz App</h1>
-    <main>
-      <section class="card">
-        <img class="card__bookmark" src="images/bookmark.png" alt="" />
-        <h2>QUESTION:</h2>
-        <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
-          facere quod, error ratione consectetur accusantium optio. Molestias
-          officia iusto nostrum adipisci.
-        </p>
-        <button class="card__button js-card__button">Show answer</button>
-        <p class="card__answer js-card__answer hidden">Because of reasons</p>
-      </section>
-      <section class="card">
-        <img class="card__bookmark" src="images/bookmark.png" alt="" />
-        <h2>QUESTION:</h2>
-        <p class="card__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
-          facere quod, error ratione consectetur accusantium optio. Molestias
-          officia iusto nostrum adipisci.
-        </p>
-        <form action="">
-          <input class="card__button" type="submit" value="Show answer" />
+    <div class="content">
+      <main class="landing-page">
+        <h1>Quiz App</h1>
+        <div class="cards">
+          <section class="card">
+            <img class="card__bookmark" src="images/bookmark.png" alt="" />
+            <h2>QUESTION:</h2>
+            <p class="card__question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              impedit recusandae blanditiis, excepturi ea porro ut nesciunt,
+              nemo facere quod, error ratione consectetur accusantium optio.
+              Molestias officia iusto nostrum adipisci.
+            </p>
+            <button class="card__button js-card__button">Show answer</button>
+            <p class="card__answer js-card__answer hidden">
+              Because of reasons
+            </p>
+          </section>
+          <section class="card">
+            <img class="card__bookmark" src="images/bookmark.png" alt="" />
+            <h2>QUESTION:</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              impedit recusandae blanditiis, excepturi ea porro ut nesciunt,
+              nemo facere quod, error ratione consectetur accusantium optio.
+              Molestias officia iusto nostrum adipisci.
+            </p>
+            <form action="">
+              <input class="card__button" type="submit" value="Show answer" />
+            </form>
+          </section>
+          <section class="card">
+            <img class="card__bookmark" src="images/bookmark.png" alt="" />
+            <h2>QUESTION:</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              impedit recusandae blanditiis, excepturi ea porro ut nesciunt,
+              nemo facere quod, error ratione consectetur accusantium optio.
+              Molestias officia iusto nostrum adipisci.
+            </p>
+            <form action="">
+              <input class="card__button" type="submit" value="Show answer" />
+            </form>
+          </section>
+          <section class="card">
+            <img class="card__bookmark" src="images/bookmark.png" alt="" />
+            <h2>QUESTION:</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              impedit recusandae blanditiis, excepturi ea porro ut nesciunt,
+              nemo facere quod, error ratione consectetur accusantium optio.
+              Molestias officia iusto nostrum adipisci.
+            </p>
+            <form action="">
+              <input class="card__button" type="submit" value="Show answer" />
+            </form>
+          </section>
+        </div>
+      </main>
+      <!--
+      <main class="bookmarks hidden">
+        <h1>Bookmarks</h1>
+        <section class="card">
+          <img class="card__bookmark" src="images/bookmark.png" alt="" />
+          <h2>QUESTION:</h2>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
+            facere quod, error ratione consectetur accusantium optio. Molestias
+            officia iusto nostrum adipisci.
+          </p>
+          <form action="">
+            <input class="card__button" type="submit" value="Show answer" />
+          </form>
+        </section>
+        <section class="card">
+          <img class="card__bookmark" src="images/bookmark.png" alt="" />
+          <h2>QUESTION:</h2>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
+            facere quod, error ratione consectetur accusantium optio. Molestias
+            officia iusto nostrum adipisci.
+          </p>
+          <form action="">
+            <input class="card__button" type="submit" value="Show answer" />
+          </form>
+        </section>
+        <section class="card">
+          <img class="card__bookmark" src="images/bookmark.png" alt="" />
+          <h2>QUESTION:</h2>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
+            facere quod, error ratione consectetur accusantium optio. Molestias
+            officia iusto nostrum adipisci.
+          </p>
+          <form action="">
+            <input class="card__button" type="submit" value="Show answer" />
+          </form>
+        </section>
+        <section class="card">
+          <img class="card__bookmark" src="images/bookmark.png" alt="" />
+          <h2>QUESTION:</h2>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
+            facere quod, error ratione consectetur accusantium optio. Molestias
+            officia iusto nostrum adipisci.
+          </p>
+          <form action="">
+            <input class="card__button" type="submit" value="Show answer" />
+          </form>
+        </section>
+      </main>
+      <main class="create hidden">
+        <h1>Create</h1>
+        <form class="create__form" action="">
+          <label class="create__label" for="question">Add question</label>
+          <textarea
+            class="create__input"
+            name="question"
+            id="question"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <label class="create__label" for="answer">Add answer</label>
+          <textarea
+            class="create__input"
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <label class="create__label" for="tags"
+            >Add tags divided by commas</label
+          >
+          <input class="create__input" name="tags" id="tags" type="text" />
+          <input class="create__button" type="submit" value="submit" />
         </form>
-      </section>
-      <section class="card">
-        <img class="card__bookmark" src="images/bookmark.png" alt="" />
-        <h2>QUESTION:</h2>
-        <p class="card__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
-          facere quod, error ratione consectetur accusantium optio. Molestias
-          officia iusto nostrum adipisci.
+      </main>
+      <main class="profile hidden">
+        <h1>Profile</h1>
+        <header class="profile-header">
+          <img
+            class="profile-header__image"
+            src="https://source.unsplash.com/random/300x300"
+            alt="Profile picture"
+          />
+          <span class="profile-header__name">Axel Tischer</span>
+        </header>
+        <p class="profile-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nihil
+          inventore! Molestiae ullam dolorem earum sequi adipisci illo,
+          blanditiis qui unde laboriosam repudiandae nisi tempora officia eos
+          recusandae atque est.
         </p>
-        <form action="">
-          <input class="card__button" type="submit" value="Show answer" />
-        </form>
-      </section>
-      <section class="card">
-        <img class="card__bookmark" src="images/bookmark.png" alt="" />
-        <h2>QUESTION:</h2>
-        <p class="card__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          impedit recusandae blanditiis, excepturi ea porro ut nesciunt, nemo
-          facere quod, error ratione consectetur accusantium optio. Molestias
-          officia iusto nostrum adipisci.
-        </p>
-        <form action="">
-          <input class="card__button" type="submit" value="Show answer" />
-        </form>
-      </section>
-    </main>
+        <section class="profile-tags">
+          <h2 class="profile-tags__heading">Skills</h2>
+          <ul class="profile-tags__list">
+            <li class="profile-tags__list-items">html</li>
+            <li class="profile-tags__list-items">css</li>
+            <li class="profile-tags__list-items">javascript</li>
+            <li class="profile-tags__list-items">git</li>
+          </ul>
+        </section>
+        <footer class="profile__footer">
+          <a class="profile-button" href="#">logout</a>
+        </footer>
+      </main>
+      -->
+    </div>
     <nav class="navigation">
       <a href="index.html"
         ><img class="nav-icon nav-icon--active" src="images/home.png" alt=""
