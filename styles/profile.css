@@ -1,4 +1,4 @@
-.profile{
+.profile {
   display: contents;
 }
 
@@ -7,7 +7,6 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   gap: 20px;
-  justify-content: space-around;
 }
 
 .profile-header__image {
